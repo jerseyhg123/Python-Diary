@@ -1,0 +1,14 @@
+Today is the second day of studying Python and I learnt some new knowledge which made me interested in studying this machine language.
+
+What is coding? Coding is an action through which people can let machines do things. This is because code is the bridge between humanbeings and machines.
+
+There are thousands of machines languages and can be divided into three sorts: 
+1.  0/1 this is the oldest machine language.
+2.  assembly language which is also aimed to hardware and same as the first one.
+3.  primiere language, such as JAVA, PHP, PYTHON, RUBY, etc. And these machine languages are more close to nature language and can be also divided into 2 cataglogues,
+    The first sort is called Compiler, such as C, C++, Delphi, etc. 
+         Its advantages include that they are fast and do not rely on SC(source code);
+         Its disadvantages include that they are not compatible and difficult to modify.
+    the second one is called interpreter.
+         Its advantages are that they are compatible and easy to modify.
+         However, they are not as fast as Compiler languages and must rely on compiler.
