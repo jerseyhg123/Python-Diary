@@ -1,0 +1,65 @@
+ Today is the second day of studying Python.
+ 
+ Today's lesson is a kind of easy and in the WEBclass teachers have talked about kinds of data, such as variable, constant, data type.
+
+Variable include numbers, characters and underline. When we create an variable, we can use these three things above. However, I have to stress that number cannot be used as the beginning of the variable. Another thing should be paid attention to is that some words cannot used as variable, such as 'and', 'break', 'class', 'def', etc. When we want to make some good variables, we should know some points below:
+     1. Use underline to make variable more palpable;   ageofboys----- Age_of_Boys
+     2. Make your variable meaningful;   
+     3. Be concise.
+    
+Constant means when it is given, it cannot be changed.
+
+Annotation is helpful, coders should keep in mind and be patient to make annotations to their codes.
+USE: # for a single line; '''  ''' for a paragraph; 
+
+Data type mainly includs three kinds: int, str, bool.
+    int: numbers, without '' or "";
+    str: everything in '' or "" are string;
+    bool: TRUE & FALSE;
+    
+NOTICE:
+    1. When [print, variable should be put in parenthese;
+    2. No matter what is put in '' or "" is regarded as string;
+    3. '' is same as "";
+
+
+
+
+RECORD:
+
+Python 3.6.5 (v3.6.5:f59c0932b4, Mar 28 2018, 17:00:18) [MSC v.1900 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print('age')
+age
+>>> age = 22
+>>> age
+22
+>>> msg = '''my name is jersey'''
+>>> print msg
+  File "<stdin>", line 1
+    print msg
+            ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(msg)?
+>>> yes
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'yes' is not defined
+>>> print 'msg'
+  File "<stdin>", line 1
+    print 'msg'
+              ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print('msg')?
+>>> print (msg)
+my name is jersey
+>>> age*10
+220
+>>> age2 = '22'
+>>> age+10
+32
+>>> age2*10
+'22222222222222222222'
+>>> a = 12
+>>> b = 23
+>>> a > b
+False
+>>>
